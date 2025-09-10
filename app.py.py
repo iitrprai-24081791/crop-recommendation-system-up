@@ -43,3 +43,5 @@ if st.button("Recommend Crop"):
     st.write("### 🌟 Other Possible Crops:")
     for i in top3_idx:
         st.write(f"- {model.classes_[i]} → {probs[i]*100:.2f}% confidence")
+        deleted extra file
+
